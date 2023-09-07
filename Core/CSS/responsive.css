@@ -1,0 +1,37 @@
+@media only screen and (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding:20px 8px 10px;
+    margin:0 15px;
+    
+  }
+  .navbar-nav .nav-link.active{
+    border-bottom:1px solid;
+  }
+  .featured-img{
+    height:600px;
+  }
+}
+
+@media only screen and (max-width: 992px){
+    .navbar-collapse{
+      margin-top: 12px;
+      padding: 20px 15px 30px;
+      text-align: center;
+      box-shadow: 0 .12rem 2rem rgba(0,0,0,.15);
+      border-radius: 14px;
+    }
+    .events h3{
+      max-width:400px;
+    }
+    .content-area{
+      width:85%;
+    }
+  }
+@media only screen and (max-width: 450px){
+  .featured-img{
+    height: 300px;
+  }
+  .banner{
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,178 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+* {
+    margin: 0;
+    padding:0;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background:rgb(244, 240, 232);
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+ img{
+  width:100%;
+  height:100%;
+  border-radius:8px;
+ }
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  a{
+    text-decoration: none;
+    color:inherit;
+  }
+
+.up-img{
+  width:100%;
+  height:300px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.banner{
+  padding: 60px 0;
+}
+h1.heading_title{
+  font-size:54px !important;
+}
+
+
+.login-title {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ECF0F5;
+}
+
+.login-form {
+  margin-top: 30px;
+  text-align: left;
+}
+
+input[type=text] {
+  background-color: #1A2226;
+  border: none;
+  border-bottom: 2px solid #0DB8DE;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  color: #ECF0F5;
+}
+
+input[type=password] {
+  background-color: #1A2226;
+  border: none;
+  border-bottom: 2px solid #0DB8DE;
+  border-top: 0px;
+  border-radius: 0px;
+  font-weight: bold;
+  outline: 0;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  color: #ECF0F5;
+}
+
+.form-group {
+  margin-bottom: 40px;
+  outline: 0px;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 2px solid #0DB8DE;
+  outline: 0;
+  background: #1A2226 !important;
+  color: #ECF0F5;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+.form-control-label {
+  font-size: 10px;
+  color: #ddd;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.link{
+  color: #0DB8DE;
+  font-size: 14px;
+}
+.login-button button{
+  padding: 8px 32px;
+}
+
+.card{
+  border:0;
+  background:transparent;
+}
+.artist-img{
+  width:150px;
+  height:150px;
+  border-radius: 4px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.featured-img{
+  width:100%;
+  height:400px;
+  border-radius: 8px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.category-box{
+  background-color: black;
+  border-radius: 8px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category-box i{
+  font-size:32px;
+  color:white;
+}
+.page-header{
+  padding: 80px 20px;
+  background-color: black;
+}
+p.badge{
+  cursor: pointer;
+}
+.chart{
+  width:300px;
+  height:225px;
+}
+
